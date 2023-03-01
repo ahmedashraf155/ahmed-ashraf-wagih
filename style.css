@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero{
+    height: 110vh;
+    width: 100%;
+    background-image: url(blue_bg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+                                                                                                                        /* start navbar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.hero nav .firstnav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+nav .firstnav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav .firstnav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav .firstnav ul li a:hover{
+    color:blueviolet;
+    transition: .3s;
+    border-bottom: 3px solid blueviolet;
+}
+/* nav .firstnav ul li .aa1{
+    border-bottom: 3px solid blueviolet;
+} */
+.login{
+    position: relative;
+    
+}
+.login p{
+    position: absolute;
+    font-size: 15px;
+    top: 7px;
+    left: 26px;
+    font-weight: bold;
+    
+}
+.login a{
+    text-decoration: none;
+    color: black;
+}
+.login a:hover{
+    color:blueviolet;
+    transition: .3s;
+}
+                                                                                                                        /* end navbar */
+
+.img{
+    position: absolute;
+}
+.img1{
+    position: absolute;
+    left: 738px;
+    bottom:50px;
+    top: 0px;
+}
+.img3{
+    position: absolute;
+    left: 900px;
+    top:450px ;
+}
+.img2{
+    position: absolute;
+    left:940px ;
+    top: 55px;
+}
+.img4{
+    position: absolute;
+    top: 550px;
+    right: 100px;
+    left: 0px;
+    font-weight: bold;
+    font-size: 30px;
+}
+border: 1px solid red;
+.paraghap{
+    position: absolute;
+}
+.paraghap h2{
+    position: absolute;
+    width: 50%;
+    left: 125px;
+    top: 380px;
+    font-size: 54px;
+}
+span{
+    color:blueviolet ;
+}
+.paraghap p{
+    color: darkgrey;
+    position: absolute;
+    top: 460px;
+    left: 125px;
+    font-size: 27px;
+}
+                                                                                                                        /* end section 1 */
+.section2{
+    position: relative;
+}
+.img5{
+    position: absolute;
+    margin-left: 330px;
+    margin-right: 6%;
+    margin-top: 40px;
+}
+.img6{
+    position: absolute;
+    right: 1100px;
+    top: 120px;
+}
+.img7{
+    position: absolute;
+    top: 270px;
+    left: 710px;
+}
+.img8{
+    position: absolute;
+    top:550px ;
+    left: 1075px;
+}
+.textimg6 h3{
+    position: absolute;
+    left: 225px;
+    top: 290px;
+}
+.textimg6 .p1{
+    position: absolute;
+    left: 200px;
+    top:320px ;
+    font-size: 15px;
+}
+.textimg6 .p2{
+    position: absolute;
+    left: 180px;
+    top:340px ;
+    font-size: 15px;
+}
+.textimg7 h3{
+    position: absolute;
+    left: 720px;
+    top: 430px;
+    font-size: 20px;
+}
+.textimg7 .p3{
+    position: absolute;
+    left: 655px;
+    top:465px ;
+    font-size: 15px;
+}
+.textimg7 .p4{
+    position: absolute;
+    left: 690px;
+    top:485px ;
+    font-size: 15px;
+}
+.textimg8 h3{
+    position: absolute;
+    left: 1125px;
+    top: 680px;
+    font-size: 20px;
+}
+.textimg8 .p5{
+    position: absolute;
+    left: 1030px;
+    top:720px ;
+    font-size: 15px;
+}
+.textimg8 .p6{
+    position: absolute;
+    left: 1015px;
+    top:740px ;
+    font-size: 15px;
+}
+.img9{
+    position: absolute;
+    left: 250px;
+    top: 500px;
+}
+.why .p7{
+    position: absolute;
+    left: 330px;
+    top: 600px;
+    font-weight: bold;
+    color: white;
+}
+.why h1{
+    position: absolute;
+    left: 330px;
+    top: 625px;
+    font-weight:bold ;
+    color: white;
+}
+.img10{
+    position: absolute;
+    left: 350px;
+    top: 1000px;
+}
+.img11{
+    position: absolute;
+    left: 650px;
+    top: 900px;
+}
+.img12{
+    position: absolute;
+    left: 1100px;
+    top: 1010px;
+}
+.p8{
+    position: absolute;
+    top: 1130px;
+    left: 530px;
+    font-weight: bold;
+}
+.p9{
+    position: absolute;
+    top: 1130px;
+    left: 1030px;
+    font-weight: bold;
+}
+.support h3{
+    position: absolute;
+    top: 1170px;
+    left: 700px;
+    font-weight: bold;
+}
+.p10{
+    position: absolute;
+    top: 1230px;
+    left: 710px;
+    font-size: 17px;
+}
+.p11{
+    position: absolute;
+    top: 1255px;
+    left: 710px;
+    font-size: 17px;
+
+}
+.p12{
+    position: absolute;
+    top: 1280px;
+    left: 745px;
+    font-size: 17px;
+} 
+                                                                                                                        /* end section 2 */
+.section3{
+    position: relative;
+}
+.img13{
+    position: absolute;
+    top: 1200px;
+}
+.img14{
+    position: absolute;
+    top: 1300px;
+    left: 750px;
+}
+.square1{
+    position: absolute;
+    border: 1px solid red;
+    background-color: white;
+    width: 130px;
+    height: 50px;
+    border-radius: 13%;
+    border: none;
+    top: 1540px;
+    left: 150px;
+}
+.square2{
+    position: absolute;
+    border: 1px solid red;
+    background-color: white;
+    width: 130px;
+    height: 50px;
+    border-radius: 13%;
+    border: none;
+    top: 1540px;
+    left: 300px;
+}
+.img18{
+    position: absolute;
+    top: 1550px;
+    left: 160px;
+}
+.img19{
+    position: absolute;
+    top: 1550px;
+    left: 310px;
+}
+.p13{
+    position: absolute;
+    top: 1550px;
+    left: 190px;
+    font-size: 12px;
+}
+.p14{
+    position: absolute;
+    top: 1565px;
+    left: 193px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.p15{
+    position: absolute;
+    top: 1550px;
+    left: 340px;
+    font-size: 12px;
+}
+.p16{
+    position: absolute;
+    top: 1565px;
+    left: 342px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.img15{
+    position: absolute;
+    top: 1615px;
+    left: 150px;
+    text-decoration: none;
+}
+.img16{
+    position: absolute;
+    top: 1615px;
+    left: 200px;
+    text-decoration: none;
+}
+.img17{
+    position: absolute;
+    top: 1615px;
+    left: 250px;
+    text-decoration: none;
+}
+.nav2 .endnav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    
+    top: 1655px;
+    left: 130px;
+}
+.endnav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.endnav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.endnav ul li a:hover{
+    color: white;
+    transition: .3s;
+}
+                                                                                                                    /*  end section 3 */
